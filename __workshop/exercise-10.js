@@ -9,7 +9,10 @@
 // -----------------------------------------------------------------
 function allLong(list) {
   // list is an array of strings
+  return list.every((word) => word.length > 4);
 }
+
+console.log(allLong(["Desk", "Computer", "Table", "Window"]));
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)
 
